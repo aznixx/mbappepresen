@@ -227,7 +227,13 @@
 				</div>
 
 				<!-- Gallery Grid -->
-				<div class="relative z-10 grid h-full w-full grid-cols-2 grid-rows-2 gap-4 p-8 xl:p-16">
+				<div
+					class="relative z-10 grid h-full w-full grid-cols-2 gap-4 p-8 xl:p-16 {(slides[
+						currentIndex
+					].images?.length || 0) <= 2
+						? 'grid-rows-1'
+						: 'grid-rows-2'}"
+				>
 					{#each slides[currentIndex].images || [] as img, i}
 						<div
 							class="group relative overflow-hidden bg-zinc-900 shadow-2xl transition-all duration-700 hover:z-20 hover:scale-[1.02] hover:shadow-cyan-500/20"
@@ -243,6 +249,7 @@
 								src={img}
 								alt="Trophy"
 								class="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110"
+								class:object-top={(slides[currentIndex].images?.length || 0) <= 2}
 								class:object-bottom={i === 3}
 							/>
 							<div
