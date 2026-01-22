@@ -18,7 +18,7 @@ export const slides: Slide[] = [
 		title: 'KYLIAN',
 		subtitle: 'THE PHENOMENON',
 		bgTitle: 'MBAPPÉ',
-		story: "A talent that emerges once in a generation. From the concrete courts of Bondy to the summit of world football.",
+		story: "They said it was impossible. A kid from Bondy conquering the world. But he didn't just play the game—he changed it forever.",
 		image: '/mbappeintro.jpg',
 		keywords: []
 	},
@@ -27,7 +27,7 @@ export const slides: Slide[] = [
 		title: 'UNSTOPPABLE',
 		bgTitle: 'MAGIC',
 		subtitle: 'HIGHLIGHTS',
-		story: "Speed, precision, and flair. When he chooses to accelerate, the world can only watch.",
+		story: "His own father didn't believe in him—he even slapped him on the forehead. But that pain didn't break him; it ignited a fire. Now, when he accelerates, he leaves the doubters in the dust.",
 		video: '/mbappa.mp4',
 		withSound: true,
 		keywords: ["SKILLS", "SPEED", "VITESSE", "TECHNIQUE"]
@@ -36,8 +36,7 @@ export const slides: Slide[] = [
 		type: 'era',
 		title: 'ORIGINS',
 		bgTitle: 'BONDY',
-		story: "Born in 1998, just months after France's first World Cup win. Raised in Bondy, where football isn't just a sport, it's a language.",
-		// Concrete pitch vibe (Unsplash) -> Replaced with User Upload
+		story: "1998. France lifts the World Cup. Months later, a king is born in the concrete jungle of Bondy. Where others saw obstacles, he saw a path to greatness.",
 		image: '/mbappebondy.jpg',
 		keywords: ["CONCRETE", "DREAMER", "SPEED", "FAMILY", "93", "START"]
 	},
@@ -45,8 +44,7 @@ export const slides: Slide[] = [
 		type: 'era',
 		title: 'BREAKOUT',
 		bgTitle: 'MONACO',
-		story: "At just 18 years old, he tore through Europe's elite defenses with fearless agility. Leading AS Monaco to a stunning Ligue 1 title against all odds and orchestrating a Champions League run that shocked the world, he announced his arrival on the global stage.",
-		// Real Monaco 2017 photo (User Upload)
+		story: "Eighteen years old. Fearless. He dismantled Europe's elite, leading Monaco to glory and proving that age is nothing but a number when you have destiny on your side.",
 		image: '/mbappemonaco.png',
 		keywords: ["EXPLOSION", "LIGUE 1", "YOUTH", "FEARLESS", "RECORDS", "CHAMPION"]
 	},
@@ -54,7 +52,7 @@ export const slides: Slide[] = [
 		type: 'era',
 		title: 'KING',
 		bgTitle: 'PARIS',
-		story: "Returning to his hometown as a hero, he embraced the weight of expectation. Over seven historic years, he became Paris Saint-Germain's all-time top scorer, embodying the soul of the city and etching his name permanently into the fabric of Parisian history.",
+		story: "The prince became the King of Paris. Seven years of dominance. Top scorer. Icon. He carried the hopes of a city on his back and delivered time and time again.",
 		image: '/kaka.png',
 		keywords: ["ICON", "HOME", "SCORER", "LEADER", "HISTORY", "LEGEND"]
 	},
@@ -63,7 +61,7 @@ export const slides: Slide[] = [
 		title: 'WORLD',
 		subtitle: 'CHAMPION',
 		bgTitle: '2018',
-		story: "Four goals, one golden trophy, and a performance for the ages. Becoming only the second teenager in history to score in a World Cup Final, he joined the pantheon of greats at just 19 years old. The world watched in awe as a new king was crowned.",
+		story: "Russia, 2018. The world watched a teenager match Pelé. Four goals. One trophy. The moment a prodigy became a legend.",
 		image: '/mbappefinal.png',
 		keywords: []
 	},
@@ -71,7 +69,7 @@ export const slides: Slide[] = [
 		type: 'era',
 		title: 'WARRIOR',
 		bgTitle: '2022',
-		story: "A historic hat-trick in the greatest final ever played. He single-handedly dragged his nation to the very brink of immortality, displaying a level of dominance that proved he stands alone at the absolute peak of the game. Even in defeat, he was the victor.",
+		story: "Lusail Stadium. Down and out. Then, 97 seconds of madness. A hat-trick in the World Cup Final. He refused to let the dream die.",
 		image: '/mbappe-scream.png',
 		keywords: ["HATTRICK", "FIGHT", "RESILIENCE", "GOLDEN BOOT", "TITAN", "SOLO"]
 	},
@@ -80,16 +78,16 @@ export const slides: Slide[] = [
 		title: 'THE HATTRICK',
 		subtitle: '97 SECONDS OF MADNESS',
 		bgTitle: '2022',
-		story: "Three goals. One relentless warrior. In a breathtaking 97-second window, he dragged France back from the dead, defying probability and logic. It was a performance that transcended sport, proving that even at the summit of the world, his will to win is unmatched.",
+		story: "It wasn't just a game; it was a war. With the weight of a nation on his shoulders, he stood tall. Single-handedly dragging France into history books.",
 		youtubeId: 'cVkI9Hezg0U',
-		keywords: ["clutch", "legendary", "goat", "history"]
+		keywords: ["80' (P)", "81'", "118' (P)", "CLUTCH", "LEGENDARY", "GOAT"]
 	},
 	{
 		type: 'gallery',
 		title: 'BROTHERHOOD',
 		subtitle: 'DAY ONES',
 		bgTitle: 'SQUAD',
-		story: "Football is temporary, but the bond with the streets is forever. Whether tearing up the pitch with icons or cruising through the neighborhood, he never forgets where he came from.",
+		story: "Success means nothing if you forget where you came from. From Bondy to the world stage, the circle remains unbroken.",
 		images: [
 			'/mbappe-squad.png',
 			'/mbappe-scooter.png'
@@ -100,7 +98,7 @@ export const slides: Slide[] = [
 		type: 'era',
 		title: 'FUTURE',
 		bgTitle: 'MADRID',
-		story: "The next chapter begins, fulfilling a childhood destiny clad in iconic white. Now, he chases the only trophy that remains elusive, ready to conquer new heights and solidify his legacy as the greatest of all time in the hallowed halls of the Bernabéu.",
+		story: "The final piece of the puzzle. Real Madrid. The biggest club in the world for the best player in the world. The Galactic Era begins now.",
 		image: '/mbappemadrid.png',
 		keywords: ["GALACTICO", "WHITE", "DESTINY", "GLORY", "NEXT", "ERA"]
 	},
@@ -109,7 +107,7 @@ export const slides: Slide[] = [
 		title: 'THE LEGACY',
 		subtitle: 'HISTORY IS BEING WRITTEN',
 		bgTitle: 'FOREVER',
-		story: "At just 25, his trophy cabinet already rivals the most decorated legends of the game. A World Cup winner, a serial domestic champion, and the undisputed heir to the footballing throne. Yet, with his prime still ahead, the most exciting chapters of his story are yet to be written.",
+		story: "25 years old. World Champion. Top Scorer. Icon. But the scary part? He's just getting started. The story isn't over. It's only just begun.",
 		images: [
 			'/mbappe-wc.png',
 			'/tro2.jpg',
