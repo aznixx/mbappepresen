@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { slides } from '$lib/presentation';
-	import { onMount } from 'svelte';
 	import { quintOut } from 'svelte/easing';
 	import { fly, fade } from 'svelte/transition';
 	import { Maximize2, X } from '@lucide/svelte';
@@ -295,7 +294,7 @@
 						<video
 							src={slides[currentIndex].video}
 							autoplay
-							muted
+							muted={!slides[currentIndex].withSound}
 							loop
 							playsinline
 							class="h-full w-full object-cover"

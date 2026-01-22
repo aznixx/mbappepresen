@@ -9,6 +9,7 @@ export interface Slide {
 	youtubeId?: string;
 	images?: string[];
 	keywords: string[];
+	withSound?: boolean;
 }
 
 export const slides: Slide[] = [
@@ -17,15 +18,25 @@ export const slides: Slide[] = [
 		title: 'KYLIAN',
 		subtitle: 'THE PHENOMENON',
 		bgTitle: 'MBAPPÉ',
-		story: "A talent that emerges only once in a generation, redefining what is possible on the pitch. From the concrete courts of Bondy to the glittering summit of world football, his journey is a testament to speed, precision, and unwavering ambition. He is not just a player; he is a force of nature.",
+		story: "A talent that emerges once in a generation. From the concrete courts of Bondy to the summit of world football.",
 		image: '/mbappeintro.jpg',
 		keywords: []
 	},
 	{
 		type: 'era',
+		title: 'UNSTOPPABLE',
+		bgTitle: 'MAGIC',
+		subtitle: 'HIGHLIGHTS',
+		story: "Speed, precision, and flair. When he chooses to accelerate, the world can only watch.",
+		video: '/mbappa.mp4',
+		withSound: true,
+		keywords: ["SKILLS", "SPEED", "VITESSE", "TECHNIQUE"]
+	},
+	{
+		type: 'era',
 		title: 'ORIGINS',
 		bgTitle: 'BONDY',
-		story: "Born in 1998, mere months after France's historic first World Cup victory, he was destined for greatness. Raised in the vibrant suburbs of Bondy, where football is more than a sport—it is a language, a culture, and a way of life.",
+		story: "Born in 1998, just months after France's first World Cup win. Raised in Bondy, where football isn't just a sport, it's a language.",
 		// Concrete pitch vibe (Unsplash) -> Replaced with User Upload
 		image: '/mbappebondy.jpg',
 		keywords: ["CONCRETE", "DREAMER", "SPEED", "FAMILY", "93", "START"]
